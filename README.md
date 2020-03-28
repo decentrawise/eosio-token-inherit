@@ -40,6 +40,8 @@ Please prioritize this as a very important issue to be resolved! Reported in EOS
 
 - contracts/ - test contract directory
 
+- thirdparty/ - thirdparty contracts to be used as base for our contract
+
 - tests/ - tests specs
 
 - scripts/ - helper scripts for running nodeos locally
