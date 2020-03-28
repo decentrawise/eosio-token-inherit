@@ -38,3 +38,5 @@ public:
    // ACTION approve(eosio::name owner, eosio::name spender, eosio::asset quantity) { BaseToken::approve(owner, spender, quantity); }
 
 };
+
+EOSIO_DISPATCH( mytoken, (open)(create)(issue)(retire)(close) )
